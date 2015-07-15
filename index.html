@@ -7,7 +7,8 @@
 
     <meta name="description" content="RICA Commercial Inc. is an e-waste recycling company and used electronics seller." />
 
-	  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css">
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/rica.css"> -->
 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
@@ -17,21 +18,27 @@
 <body>
   <div class="container">
 
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html"> RICA Commercial </a>
+          <button class="btn btn-default navbar-toggle"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse"> 
+                  Toggle </button>
         </div>
 
-        <div class="wrapper">
-            <ul id="nav" class="nav navbar-nav navbar-right">
-                <li> <a href="index.html">Home</a> </li>
-                <li> <a href="services.html">Services</a> </li>
-                <li> <a href="contact.html">Contact Us</a> </li>
-            </ul>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="nav active"> <a href="index.html">Home</a> </li>
+              <li class="nav"> <a href="services.html">Services</a> </li>
+              <li class="nav"> <a href="contact.html">Contact Us</a> </li>
+          </ul>
         </div>
       </div>
     </nav>
+
+    
 
     <div id="header">
         <div class="wrapper">
@@ -85,5 +92,6 @@
     </div>
   </div>
   <script src="js/libs/jquery/jquery-1.11.0.js" type="text/javascript"></script>
+  <script src="js/libs/bootstrap/bootstrap.min.js" type="text/javascript"></script>
 </body>
 </html>
