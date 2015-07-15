@@ -1,0 +1,117 @@
+/** Main SASS file with styles that basically all pages should have. */
+html, body {
+  margin: 0;
+  background: white;
+  color: #333;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%; }
+
+/** === CLEARFIX === */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1; }
+
+a {
+  color: #2980b9; }
+  a.icon-link {
+    color: #95A5A6; }
+
+p {
+  line-height: 1.5em;
+  margin: 1.5em 0; }
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px; }
+
+#nav-container {
+  background: #5eb854; }
+  #nav-container .wrapper {
+    padding: 0; }
+  #nav-container #nav {
+    list-style: none;
+    margin: 0;
+    padding-left: 0; }
+    #nav-container #nav li {
+      display: inline-block;
+      margin-right: 15px;
+      background: #5eb854;
+      padding: 15px;
+      cursor: pointer; }
+      #nav-container #nav li:hover {
+        background: #51ab47; }
+      #nav-container #nav li:active {
+        background: #4ca143; }
+      #nav-container #nav li a {
+        color: white;
+        text-decoration: none;
+        text-shadow: 0 1px 0 #4ea444; }
+
+.content {
+  width: 100%;
+  min-height: 500px; }
+
+#header #slogan {
+  text-transform: uppercase; }
+
+#home-content {
+  background: url("../imgs/key_bg.jpg") no-repeat;
+  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  position: relative; }
+  #home-content #main-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -100px;
+    width: 600px;
+    display: block;
+    font-size: 24px;
+    line-height: 1.6em; }
+
+#footer {
+  border-top: 1px solid #AAA;
+  background: #DDD; }
+  #footer .footer-section {
+    width: 50%;
+    display: inline-block;
+    padding: 15px 0 30px 0; }
+    #footer .footer-section .footer-section-title {
+      margin-top: 0; }
+    #footer .footer-section table {
+      width: 100%; }
+      #footer .footer-section table tr td {
+        padding: 3px 0; }
+      #footer .footer-section table.hours td {
+        width: 50%; }
+
+#contact-content .wrapper .content-pane {
+  display: inline-block;
+  vertical-align: top; }
+  #contact-content .wrapper .content-pane.left {
+    width: 600px;
+    margin-right: 60px; }
+    #contact-content .wrapper .content-pane.left .iframe-container {
+      border: 1px solid #CCC; }
+  #contact-content .wrapper .content-pane.right {
+    width: 290px; }
+    #contact-content .wrapper .content-pane.right ul {
+      padding-left: 0; }

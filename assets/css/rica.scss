@@ -1,0 +1,182 @@
+/** Main SASS file with styles that basically all pages should have. */
+$green: #5EB854;
+
+html, body {
+  margin: 0;
+  background: lighten(#ecf0f1, 7%);
+  color: #333;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+/** === CLEARFIX === */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+a {
+    color: #2980b9;
+
+    &.icon-link {
+        color: #95A5A6;
+    }
+}
+
+p {
+    line-height: 1.5em;
+    margin: 1.5em 0;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#nav-container {
+  background: $green;
+
+  .wrapper {
+    padding: 0;
+  }
+
+  #nav {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 15px;
+      background: $green;
+      padding: 15px;
+      cursor: pointer;
+
+      &:hover {
+        background: darken($green, 5%);
+      }
+
+      &:active {
+        background: darken($green, 8%);
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+
+        text-shadow: 0 1px 0 darken($green, 7%);
+      }
+    }
+  }
+}
+
+.content {
+  width: 100%;
+  min-height: 500px;
+}
+
+#header {
+
+  #slogan {
+    text-transform: uppercase;
+  }
+}
+
+#home-content {
+  background: url('../imgs/key_bg.jpg') no-repeat;
+  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  position: relative;
+
+  #main-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -100px;
+    width: 600px;
+    display: block;
+    font-size: 24px;
+    line-height: 1.6em;
+  }
+}
+
+#footer {
+  border-top: 1px solid #AAA;
+  background: #DDD;
+
+  .footer-section {
+    width: 50%;
+    display: inline-block;
+    padding: 15px 0 30px 0;
+
+    .footer-section-title {
+      margin-top: 0;
+    }
+
+    table {
+      width: 100%;
+
+      tr {
+        td {
+          padding: 3px 0;
+        }
+      }
+
+      &.hours {
+
+        td {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+#contact-content {
+
+
+  .wrapper {
+
+    .content-pane {
+      display: inline-block;
+      vertical-align: top;
+
+      &.left {
+        width: 600px;
+        margin-right: 60px;
+
+        .iframe-container {
+          // padding: 15px;
+          border: 1px solid #CCC;
+        }
+      }
+
+      &.right {
+        width: 290px;
+
+        ul {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
