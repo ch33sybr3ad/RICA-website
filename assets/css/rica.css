@@ -115,3 +115,118 @@ p {
     width: 290px; }
     #contact-content .wrapper .content-pane.right ul {
       padding-left: 0; }
+
+.container-fluid {
+  background-color:white;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+
+.rica-logo {
+  float:left;
+}
+
+.nav-active {
+  background-color: #33CC66
+}
+/*.navbar-header {
+  background-color:black  ;
+}*/
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #33CC66;
+
+  /*Sets the text hover color on navbar*/
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+    background-image: -webkit-linear-gradient(top,white 0,white 100%);
+    background-image: -o-linear-gradient(top,white 0,white 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(white),to(white));
+    background-image: linear-gradient(to bottom,white 0,white 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='white', GradientType=0);
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0 3px 9px white;
+    box-shadow: inset 0 3px 9px white;
+    border-bottom: 3px solid #33CC66;
+    background-color:;
+}
+
+.navbar-default {
+  height: 3.5em;
+}
+
+.photo-container {
+  color:white;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c");
+  margin-top:3.7em;
+  height:33em;
+  /*background: url(bgimage.jpg) no-repeat;*/
+  background-size: 100%;
+
+}
+
+/*#intro-text {
+  position:relative;
+  top:10%;
+  font-size:40px;
+  font-family: Montserrat;
+  vertical-align: middle;
+
+}*/
+
+#motto-text {
+  position:relative;
+  top:40%;
+  font-size:50px;
+  font-family: Montserrat;
+  vertical-align: middle;
+}
+
+#intro-paragraph{
+  text-align:center;
+  height:300px;
+  vertical-align: middle;
+  background-color:#33CC66;
+
+}
+
+#intro-paragraph-text {
+  position:relative;
+  top:40%;
+  color:#303030 ;
+  font-style:italic;
+  font-family: Montserrat;
+  font-weight:bold;
+  font-size:18px;
+}
+
+.navbar-brand {
+  font-size:24px;
+}
+
+.mission-block {
+  background-color: white;
+  margin-top:2em;
+}
+
+#about-us-list {
+  list-style-type: none;
+}
+
+#about-us-text {
+  position:relative;
+  top:20%;
+  color:#303030 ;
+  /*font-style:italic;*/
+  /*font-family: Montserrat;*/
+  font-weight:bold;
+  font-size:18px;
+}
+
