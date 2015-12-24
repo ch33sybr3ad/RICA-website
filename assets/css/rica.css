@@ -230,3 +230,29 @@ color: #33CC66;
   font-size:18px;
 }
 
+#who-we-are {
+  background-color: #66CC66;
+  text-align: center;
+  color:white;
+  height:40em;
+}
+/*#who-we-are h1 {
+  font-family: Montserrat;
+  font-size:;
+}*/
+.about-section {
+  display: inline-block;
+  width: 33%;
+  font-size: 24px;
+  text-align:left;
+}
+
+.about-section p {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.glyphicon {
+  font-size: 35px;
+  /*color:white;*/
+}
