@@ -166,7 +166,7 @@ color: #33CC66;
   text-align: center;
   background-image: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c");
   margin-top:3.7em;
-  height:33em;
+  height:50em;
   /*background: url(bgimage.jpg) no-repeat;*/
   background-size: 100%;
 
@@ -183,7 +183,7 @@ color: #33CC66;
 
 #motto-text {
   position:relative;
-  top:40%;
+  top:30%;
   font-size:50px;
   font-family: Montserrat;
   vertical-align: middle;
@@ -199,7 +199,7 @@ color: #33CC66;
 
 #intro-paragraph-text {
   position:relative;
-  top:40%;
+  top:30%;
   color:#303030 ;
   font-style:italic;
   font-family: Montserrat;
@@ -230,3 +230,29 @@ color: #33CC66;
   font-size:18px;
 }
 
+#who-we-are {
+  background-color: #66CC66;
+  text-align: center;
+  color:white;
+  height:40em;
+}
+/*#who-we-are h1 {
+  font-family: Montserrat;
+  font-size:;
+}*/
+.about-section {
+  display: inline-block;
+  width: 33%;
+  font-size: 24px;
+  text-align:left;
+}
+
+.about-section p {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.glyphicon {
+  font-size: 35px;
+  /*color:white;*/
+}
