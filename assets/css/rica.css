@@ -303,4 +303,14 @@ color: #33CC66;
 
 #footer-block {
   height: 25em;
+  background-color: #66CC66;
+  width: 100%;
+}
+
+#footer-block h3{
+  text-decoration:
+}
+
+.footer-table{
+  background-color: #66CC66;
 }
