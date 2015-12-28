@@ -291,7 +291,7 @@ color: #33CC66;
   position: relative;
   top: 20%;
   background-color:white;
-  opacity: .8;
+  opacity: .5;
 /*  -webkit-filter: grayscale(100%);
 /*  border-radius: ;
 */
@@ -307,10 +307,11 @@ color: #33CC66;
   width: 100%;
 }
 
-#footer-block h3{
-  text-decoration:
-}
+
 
 .footer-table{
   background-color: #66CC66;
+  margin-top: 5%;
+  border:none;
 }
+
