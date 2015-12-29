@@ -303,3 +303,27 @@ color: #33CC66;
   border:none;
 }
 
+#services-block {
+  /*position:relative;*/
+  margin-top:5%;
+}
+
+#services-table {
+  margin-top:5%;
+}
+
+.services-left-column{
+  width:25%;
+  padding-right:0%;
+
+}
+
+.services-table td{
+  border-left:3px solid #4682B4;
+  padding-left:3%;
+  background-color:#C6E2FF;
+
+}
+.services-table {
+  margin-bottom: 3%;
+}
