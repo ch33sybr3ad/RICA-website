@@ -132,9 +132,7 @@ p {
 .nav-active {
   background-color: #33CC66
 }
-/*.navbar-header {
-  background-color:black  ;
-}*/
+
 
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -167,19 +165,10 @@ color: #33CC66;
   background-image: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c");
   margin-top:3.7em;
   height:50em;
-  /*background: url(bgimage.jpg) no-repeat;*/
   background-size: 100%;
 
 }
 
-/*#intro-text {
-  position:relative;
-  top:10%;
-  font-size:40px;
-  font-family: Montserrat;
-  vertical-align: middle;
-
-}*/
 
 #motto-text {
   position:relative;
@@ -224,8 +213,6 @@ color: #33CC66;
   position:relative;
   top:20%;
   color:#303030 ;
-  /*font-style:italic;*/
-  /*font-family: Montserrat;*/
   font-weight:bold;
   font-size:18px;
 }
@@ -237,25 +224,9 @@ color: #33CC66;
   height:35em;
 
 }
-/*#who-we-are h1 {
-  font-family: Montserrat;
-  font-size:;
-}*/
-/*.about-section {
-  display: inline-block;
-  width: 33%;
-  font-size: 24px;
-  text-align:left;
-}
-
-.about-section p {
-  font-size: 20px;
-  padding: 5px;
-}*/
 
 .glyphicon {
   font-size: 35px;
-  /*color:white;*/
 }
 
 .about-table {
@@ -285,13 +256,7 @@ color: #33CC66;
    height: 40em;
    margin-top:-5%;
 }
-/*#mission-block img {
-  height: 35%;
-  width: 35%;
-  float:left;
-  display:block;
-  margin-bottom:10px;
-}*/
+
 
 #photo-collage {
   /* Prevent vertical gaps */
@@ -311,21 +276,13 @@ color: #33CC66;
   width: 100% !important;
   height: auto !important;
 }
-/*#second-image {
-  position:relative;
-  margin-top: 10%;
-  float:left;
-  left:0px;
-}*/
+
 
 #mission-text {
   position: relative;
   top: 20%;
   background-color:white;
-  /*opacity: .5;*/
-/*  -webkit-filter: grayscale(100%);
-/*  border-radius: ;
-*/
+
 }
 
 #partners-block {
@@ -346,3 +303,40 @@ color: #33CC66;
   border:none;
 }
 
+#services-block {
+  /*position:relative;*/
+  margin-top:5%;
+}
+
+#services-table {
+  margin-top:5%;
+}
+
+.services-left-column{
+  width:25%;
+}
+
+.services-table td{
+  border-left:3px solid white;
+  padding-left:3%;
+  background-color:#C6E2FF;
+
+}
+.services-table {
+  margin-bottom: 3%;
+}
+
+#services-drop-off {
+  background:url("https://images.unsplash.com/photo-1449182325215-d517de72c42d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=528f9852c102ac3eb817c12aa758902a");
+  background-size: 100%
+}
+
+#services-pickup{
+  background:url("https://images.unsplash.com/photo-1448975750337-b0290d621d6d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=c9f3aa8303fd019dd274456ac7746813");
+  background-size:100%;
+}
+
+#services-data {
+  background:url("https://images.unsplash.com/photo-1436407886995-41f8f5ee43ad?crop=entropy&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450");
+  background-size:100%;
+}
