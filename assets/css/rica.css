@@ -340,3 +340,37 @@ color: #33CC66;
   background:url("https://images.unsplash.com/photo-1436407886995-41f8f5ee43ad?crop=entropy&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450");
   background-size:100%;
 }
+
+#contact-content {
+  margin-top:5%;
+}
+
+#map-right-content {
+  display:inline-block;
+  float:right;
+  margin-right: -5%;
+
+}
+#map-right-content a{
+  color:black;
+}
+
+#map-right-content ul {
+  list-style: none;
+}
+
+#map-right-content .glyphicon {
+  font-size: 25px;
+  padding-right:10px;
+  color:#66CC66;
+}
+#map {
+  margin-left:-10%;
+  display:inline-block;
+}
+
+#map-right-content td{
+  /*border:1px solid black;*/
+  padding-left:3px;
+  padding-bottom:3px;
+}
