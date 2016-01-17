@@ -249,6 +249,9 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
 
 #about-table {
   margin-top: 40px;
+  background-color: white;
+  border-right: solid 3px red;
+
 }
 
 #about-heading {
@@ -256,6 +259,11 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
   text-align: center;
   font-family: montserrat;
   font-size: 50px;
+  color: #66CC66;
+}
+
+th {
+  text-align: center;
 }
 
 #mission-heading {
@@ -388,4 +396,12 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
 
 * {
   font-family: montserrat;
+  border: 1px solid red ;
 }
+
+.glyphicon {
+  text-align: center;
+}
+
+
+
