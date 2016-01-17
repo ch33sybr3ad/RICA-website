@@ -68,7 +68,7 @@ p {
 
 #header #slogan {
   text-transform: uppercase; }
-
+/*
 #home-content {
   background: url("../imgs/key_bg.jpg") no-repeat;
   background-size: 100%;
@@ -85,7 +85,7 @@ p {
     width: 600px;
     display: block;
     font-size: 24px;
-    line-height: 1.6em; }
+    line-height: 1.6em; }*/
 
 #footer {
   border-top: 1px solid #AAA;
@@ -162,17 +162,28 @@ color: #33CC66;
 .photo-container {
   color:white;
   text-align: center;
-  background-image: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c");
+
+background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") fixed;
   margin-top:3.7em;
-  height:50em;
+  height:45em;
   background-size: 100%;
 
+
+/*background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") no-repeat top center fixed;
+   background-size: cover;
+   height: 200px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-align: center;
+   font-size: 50px;*/
 }
 
 
 #motto-text {
   position:relative;
-  top:30%;
+  top:22%;
   font-size:50px;
   font-family: Montserrat;
   vertical-align: middle;
@@ -188,7 +199,7 @@ color: #33CC66;
 
 #intro-paragraph-text {
   position:relative;
-  top:30%;
+  top:22%;
   color:#303030 ;
   font-style:italic;
   font-family: Montserrat;
