@@ -201,9 +201,7 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
   position:relative;
   top:22%;
   color:#303030 ;
-  font-style:italic;
   font-family: Montserrat;
-  font-weight:bold;
   font-size:18px;
 }
 
@@ -228,6 +226,14 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
   font-size:18px;
 }
 
+.about-table-container {
+  display:inline-block;
+  width:30%;
+  margin: 12px;
+}
+
+
+
 #who-we-are {
   background-color: #F8F8F8 ;
   text-align: center;
@@ -241,16 +247,15 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
 }
 
 .about-table {
-  padding-right: 30px;
   text-align: left;
-  width: 33%;
   background-color: white;
+  padding:8px ;
+  border-bottom:2px solid #66CC66;
 }
 
 #about-table {
   margin-top: 40px;
   background-color: white;
-  border-right: solid 3px red;
 
 }
 
@@ -264,6 +269,7 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
 
 th {
   text-align: center;
+  padding-top: 10px;
 }
 
 #mission-heading {
@@ -394,10 +400,10 @@ th {
   padding-bottom:3px;
 }
 
-* {
+/** {
   font-family: montserrat;
   border: 1px solid red ;
-}
+}*/
 
 .glyphicon {
   text-align: center;
