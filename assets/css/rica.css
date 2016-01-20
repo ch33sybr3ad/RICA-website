@@ -318,13 +318,30 @@ th {
   width:100%;
   text-align: center;
 }
+#partners-block li {
+  display: inline-block;
+  padding-right:10%;
+  padding-left:10%;
+}
+#partners-block h1{
+  color:#66CC66;
+}
 
 #footer-block {
   height: 15em;
   background-color: #282828 ;
   width: 100%;
-  border-top:3px solid #66CC66; ;
+  border-top:3px solid #66CC66;
 }
+
+#footer-block h3 {
+  color:white;
+}
+
+#footer-block td {
+  color:#A8A8A8 ;
+}
+
 
 
 
@@ -332,6 +349,7 @@ th {
   background-color: #282828 ;
   border:none;
 }
+
 
 #services-block {
   /*position:relative;*/
@@ -346,6 +364,10 @@ th {
   width:25%;
 }
 
+#footer-block td {
+  border:none;
+}
+}
 .services-table td{
   border-left:3px solid white;
   padding-left:3%;
@@ -410,9 +432,9 @@ th {
   /*border: 1px solid red ;*/
 }
 
+
+
 .glyphicon {
   text-align: center;
 }
-
-
 
