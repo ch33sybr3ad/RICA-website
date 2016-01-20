@@ -281,39 +281,20 @@ th {
 
 #mission-block {
    height: 30em;
-   margin-top:-5%;
+   background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bananas.svg/560px-Bananas.svg.png") no-repeat center left fixed;
+  width: 100%;
+  position: relative;
 }
-
-
-#photo-collage {
-  /* Prevent vertical gaps */
-  line-height: 0;
-
-  -webkit-column-count: 5;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    5;
-  -moz-column-gap:      0px;
-  column-count:         5;
-  column-gap:           0px;
-  overflow:hidden;
-}
-
-#photo-collage img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-}
-
 
 #mission-text {
   position: relative;
   top: 20%;
-  background-color:white;
-
+  width:50%;
+  padding-left:20%;
 }
 
 #partners-block {
-  height: 15em;
+  height: 12em;
   background-color: #F8F8F8;
   width:100%;
   text-align: center;
@@ -350,6 +331,20 @@ th {
   border:none;
 }
 
+/*SERVICES*/
+
+#services-heading {
+  background:url("https://images.unsplash.com/photo-1449182325215-d517de72c42d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=528f9852c102ac3eb817c12aa758902a");
+  height:20%;
+  width:100%;
+  background-size:100%;
+  text-align: center;
+}
+
+#services-heading h2 {
+  margin-top:5%;
+  font-size:40px;
+}
 
 #services-block {
   /*position:relative;*/
@@ -364,9 +359,6 @@ th {
   width:25%;
 }
 
-#footer-block td {
-  border:none;
-}
 }
 .services-table td{
   border-left:3px solid white;
@@ -393,6 +385,9 @@ th {
   background-size:100%;
 }
 
+#footer-block td {
+  border:none;
+}
 #contact-content {
   margin-top:5%;
 }
