@@ -228,8 +228,8 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
 
 .about-table-container {
   display:inline-block;
-  width:30%;
-  margin: 12px;
+  width:25%;
+  margin: 30px;
 }
 
 
@@ -238,7 +238,7 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
   background-color: #F8F8F8 ;
   text-align: center;
   color:#303030 ;
-  height:35em;
+  height:38em;
 
 }
 
@@ -249,7 +249,8 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
 .about-table {
   text-align: left;
   background-color: white;
-  padding:8px ;
+  padding:10px ;
+
   border-bottom:2px solid #66CC66;
 }
 
@@ -260,7 +261,7 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
 }
 
 #about-heading {
-  margin-top: 60px;
+  margin-top: 30  px;
   text-align: center;
   font-family: montserrat;
   font-size: 50px;
@@ -317,14 +318,14 @@ th {
 
 #footer-block {
   height: 15em;
-  background-color: #66CC66;
+  background-color: #282828 ;
   width: 100%;
 }
 
 
 
 .footer-table{
-  background-color: #66CC66;
+  background-color: #282828 ;
   border:none;
 }
 
@@ -400,10 +401,10 @@ th {
   padding-bottom:3px;
 }
 
-/** {
+* {
   font-family: montserrat;
-  border: 1px solid red ;
-}*/
+  /*border: 1px solid red ;*/
+}
 
 .glyphicon {
   text-align: center;
