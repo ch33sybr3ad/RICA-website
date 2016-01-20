@@ -276,9 +276,10 @@ th {
   width:90%;
   padding-right:65%;
   color:#303030;
+  font-size:18px;
 }
 #mission-heading{
-  color:#0066CC;
+  color:#303030;
 }
 
 #partners-block {
@@ -294,7 +295,7 @@ th {
 }
 #partners-block h1{
   font-size: 30px;
-  color:#303030;
+  color:#66CC66;
 }
 
 #footer-block {
