@@ -163,7 +163,7 @@ color: #33CC66;
   color:white;
   text-align: center;
 
-background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") fixed;
+background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") no-repeat top center fixed;
   margin-top:3.7em;
   height:45em;
   background-size: 100%;
@@ -201,9 +201,7 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
   position:relative;
   top:22%;
   color:#303030 ;
-  font-style:italic;
   font-family: Montserrat;
-  font-weight:bold;
   font-size:18px;
 }
 
@@ -228,11 +226,19 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
   font-size:18px;
 }
 
+.about-table-container {
+  display:inline-block;
+  width:25%;
+  margin: 30px;
+}
+
+
+
 #who-we-are {
-  background-color: #66CC66;
+  background-color: #F8F8F8 ;
   text-align: center;
-  color:white;
-  height:35em;
+  color:#303030 ;
+  height:38em;
 
 }
 
@@ -241,20 +247,30 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
 }
 
 .about-table {
-  padding-right: 30px;
   text-align: left;
-  width: 33%;
+  background-color: white;
+  padding:10px ;
+
+  border-bottom:2px solid #66CC66;
 }
 
 #about-table {
   margin-top: 40px;
+  background-color: white;
+
 }
 
 #about-heading {
-  margin-top: 60px;
+  margin-top: 30  px;
   text-align: center;
   font-family: montserrat;
   font-size: 50px;
+  color: #66CC66;
+}
+
+th {
+  text-align: center;
+  padding-top: 10px;
 }
 
 #mission-heading {
@@ -301,16 +317,15 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
 }
 
 #footer-block {
-  height: 25em;
-  background-color: #66CC66;
+  height: 15em;
+  background-color: #282828 ;
   width: 100%;
 }
 
 
 
 .footer-table{
-  background-color: #66CC66;
-  margin-top: 5%;
+  background-color: #282828 ;
   border:none;
 }
 
@@ -385,3 +400,15 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
   padding-left:3px;
   padding-bottom:3px;
 }
+
+* {
+  font-family: montserrat;
+  /*border: 1px solid red ;*/
+}
+
+.glyphicon {
+  text-align: center;
+}
+
+
+
