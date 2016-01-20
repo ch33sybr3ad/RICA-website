@@ -280,7 +280,7 @@ th {
 }
 
 #mission-block {
-   height: 40em;
+   height: 30em;
    margin-top:-5%;
 }
 
@@ -313,13 +313,17 @@ th {
 }
 
 #partners-block {
-  height: 40em;
+  height: 15em;
+  background-color: #F8F8F8;
+  width:100%;
+  text-align: center;
 }
 
 #footer-block {
   height: 15em;
   background-color: #282828 ;
   width: 100%;
+  border-top:3px solid #66CC66; ;
 }
 
 
