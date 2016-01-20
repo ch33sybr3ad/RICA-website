@@ -320,6 +320,11 @@ th {
 }
 #partners-block li {
   display: inline-block;
+  padding-right:10%;
+  padding-left:10%;
+}
+#partners-block h1{
+  color:#66CC66;
 }
 
 #footer-block {
