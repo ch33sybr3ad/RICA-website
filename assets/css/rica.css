@@ -165,7 +165,7 @@ color: #33CC66;
 
 background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") no-repeat top center fixed;
   margin-top:3.7em;
-  height:45em;
+  height:40em;
   background-size: 100%;
 
 
@@ -280,17 +280,21 @@ th {
 }
 
 #mission-block {
-   height: 30em;
-   background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bananas.svg/560px-Bananas.svg.png") no-repeat center left fixed;
+   height: 25em;
+   background: url("http://adaptstudio.ca/blog/uploaded_images/ewasteiwaste-737003.png") no-repeat bottom left fixed;
+   background-size:60%;
   width: 100%;
   position: relative;
 }
 
 #mission-text {
   position: relative;
-  top: 20%;
-  width:50%;
-  padding-left:20%;
+  margin-top:5%;
+  width:90%;
+  padding-left:60%;
+}
+#mission-heading{
+  color:#0066CC;
 }
 
 #partners-block {
