@@ -167,7 +167,7 @@ color: #33CC66;
   position:relative;
   top:22%;
   font-size:50px;
-  font-family: Montserrat;
+  font-family: Lato;
   vertical-align: middle;
 }
 
@@ -183,7 +183,7 @@ color: #33CC66;
   position:relative;
   top:22%;
   color:#303030 ;
-  font-family: Montserrat;
+  font-family: Lato;
   font-size:18px;
 }
 
@@ -245,7 +245,7 @@ color: #33CC66;
 #about-heading {
   margin-top: 30  px;
   text-align: center;
-  font-family: montserrat;
+  font-family: Lato;
   font-size: 50px;
   color: #66CC66;
 }
@@ -257,13 +257,13 @@ th {
 
 #mission-heading {
   text-align: center;
-  font-family: montserrat;
+  font-family: Lato;
   font-size: 50px;
 }
 
 
 #mission-block{
-   height: 25em;
+   height: 30em;
    background: url("https://static.pexels.com/photos/5190/man-person-clouds-apple.jpg") no-repeat center left fixed;
    background-size:100%;
    width: 100%;
@@ -413,7 +413,7 @@ th {
 }
 
 * {
-  font-family: montserrat;
+  font-family: lato;
   /*border: 1px solid red ;*/
 }
 
