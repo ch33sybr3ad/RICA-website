@@ -68,24 +68,7 @@ p {
 
 #header #slogan {
   text-transform: uppercase; }
-/*
-#home-content {
-  background: url("../imgs/key_bg.jpg") no-repeat;
-  background-size: 100%;
-  background-size: cover;
-  background-position: center center;
-  color: white;
-  position: relative; }
-  #home-content #main-description {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -300px;
-    margin-top: -100px;
-    width: 600px;
-    display: block;
-    font-size: 24px;
-    line-height: 1.6em; }*/
+
 
 #footer {
   border-top: 1px solid #AAA;
@@ -162,22 +145,10 @@ color: #33CC66;
 .photo-container {
   color:white;
   text-align: center;
-
-background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") no-repeat top center fixed;
+  background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") no-repeat top center fixed;
   margin-top:3.7em;
-  height:40em;
+  height:45em;
   background-size: 100%;
-
-
-/*background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") no-repeat top center fixed;
-   background-size: cover;
-   height: 200px;
-   width: 100%;
-   margin: 0;
-   padding: 0;
-   color: white;
-   text-align: center;
-   font-size: 50px;*/
 }
 
 
@@ -185,7 +156,7 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
   position:relative;
   top:22%;
   font-size:50px;
-  font-family: Montserrat;
+  font-family: Lato;
   vertical-align: middle;
 }
 
@@ -201,7 +172,7 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
   position:relative;
   top:22%;
   color:#303030 ;
-  font-family: Montserrat;
+  font-family: Lato;
   font-size:18px;
 }
 
@@ -251,7 +222,7 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
   background-color: white;
   padding:10px ;
 
-  border-bottom:2px solid #66CC66;
+  border-bottom:3px solid #66CC66;
 }
 
 #about-table {
@@ -263,7 +234,7 @@ background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ix
 #about-heading {
   margin-top: 30  px;
   text-align: center;
-  font-family: montserrat;
+  font-family: Lato;
   font-size: 50px;
   color: #66CC66;
 }
@@ -275,26 +246,29 @@ th {
 
 #mission-heading {
   text-align: center;
-  font-family: montserrat;
+  font-family: Lato;
   font-size: 50px;
 }
 
-#mission-block {
-   height: 25em;
-   background: url("http://adaptstudio.ca/blog/uploaded_images/ewasteiwaste-737003.png") no-repeat bottom left fixed;
-   background-size:60%;
-  width: 100%;
-  position: relative;
+
+#mission-block{
+   height: 30em;
+   background: url("https://static.pexels.com/photos/5190/man-person-clouds-apple.jpg") no-repeat center left fixed;
+   background-size:100%;
+   width: 100%;
+
+
 }
 
 #mission-text {
-  position: relative;
-  margin-top:5%;
+  /*margin-top:5%;*/
   width:90%;
-  padding-left:60%;
+  padding-right:65%;
+  color:#303030;
+  font-size:18px;
 }
 #mission-heading{
-  color:#0066CC;
+  color:#303030;
 }
 
 #partners-block {
@@ -309,6 +283,7 @@ th {
   padding-left:10%;
 }
 #partners-block h1{
+  font-size: 30px;
   color:#66CC66;
 }
 
@@ -338,7 +313,7 @@ th {
 /*SERVICES*/
 
 #services-heading {
-  background:url("https://images.unsplash.com/photo-1449182325215-d517de72c42d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=528f9852c102ac3eb817c12aa758902a");
+  background:url("https://static.pexels.com/photos/2832/vehicle-vintage-old-truck.jpg")no-repeat right center fixed;
   height:20%;
   width:100%;
   background-size:100%;
@@ -348,6 +323,7 @@ th {
 #services-heading h2 {
   margin-top:5%;
   font-size:40px;
+  color:white;
 }
 
 #services-block {
@@ -374,26 +350,31 @@ th {
   margin-bottom: 3%;
 }
 
-#services-drop-off {
-  background:url("https://images.unsplash.com/photo-1449182325215-d517de72c42d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=528f9852c102ac3eb817c12aa758902a");
-  background-size: 100%
-}
-
-#services-pickup{
-  background:url("https://images.unsplash.com/photo-1448975750337-b0290d621d6d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=c9f3aa8303fd019dd274456ac7746813");
-  background-size:100%;
-}
-
-#services-data {
-  background:url("https://images.unsplash.com/photo-1436407886995-41f8f5ee43ad?crop=entropy&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450");
-  background-size:100%;
+#services-content h3{
+  color:#66cc66;
 }
 
 #footer-block td {
   border:none;
 }
+
+/*CONTACT */
 #contact-content {
   margin-top:5%;
+}
+
+#contact-heading {
+  background:url("https://static.pexels.com/photos/17663/pexels-photo.jpg")no-repeat bottom right fixed;
+  height:20%;
+  width:100%;
+  background-size:100%;
+  text-align: center;
+}
+
+#contact-heading h2 {
+  margin-top:5%;
+  font-size:40px;
+  color:white;
 }
 
 #map-right-content {
@@ -427,7 +408,7 @@ th {
 }
 
 * {
-  font-family: montserrat;
+  font-family: lato;
   /*border: 1px solid red ;*/
 }
 
@@ -437,3 +418,17 @@ th {
   text-align: center;
 }
 
+/*ABOUT*/
+#about-us-heading {
+  background:url("https://static.pexels.com/photos/11406/c12ee0f379643a278198b2086afd3b9c.jpg")no-repeat center right fixed;
+  height:20%;
+  width:100%;
+  background-size:100%;
+  text-align: center;
+}
+
+#about-us-heading h2 {
+  margin-top:5%;
+  font-size:40px;
+  color:white;
+}
