@@ -357,8 +357,24 @@ th {
 #footer-block td {
   border:none;
 }
+
+/*CONTACT */
 #contact-content {
   margin-top:5%;
+}
+
+#contact-heading {
+  background:url("https://static.pexels.com/photos/17663/pexels-photo.jpg")no-repeat bottom right fixed;
+  height:20%;
+  width:100%;
+  background-size:100%;
+  text-align: center;
+}
+
+#contact-heading h2 {
+  margin-top:5%;
+  font-size:40px;
+  color:white;
 }
 
 #map-right-content {
@@ -402,3 +418,17 @@ th {
   text-align: center;
 }
 
+/*ABOUT*/
+#about-heading {
+  background:url("https://static.pexels.com/photos/11406/c12ee0f379643a278198b2086afd3b9c.jpg")no-repeat center right fixed;
+  height:20%;
+  width:100%;
+  background-size:100%;
+  text-align: center;
+}
+
+#about-heading h2 {
+  margin-top:5%;
+  font-size:40px;
+  color:white;
+}
