@@ -107,7 +107,6 @@ p {
   font-size: 20px;
 }
 
-
 .rica-logo {
   float:left;
 }
@@ -116,14 +115,10 @@ p {
   background-color: #33CC66
 }
 
-
-
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 color: #33CC66;
-
   /*Sets the text hover color on navbar*/
 }
-
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
     background-image: -webkit-linear-gradient(top,white 0,white 100%);
@@ -151,7 +146,6 @@ color: #33CC66;
   background-size: 100%;
 }
 
-
 #motto-text {
   position:relative;
   top:22%;
@@ -165,7 +159,6 @@ color: #33CC66;
   height:300px;
   vertical-align: middle;
   background-color:#33CC66;
-
 }
 
 #intro-paragraph-text {
@@ -202,8 +195,6 @@ color: #33CC66;
   width:25%;
   margin: 30px;
 }
-
-
 
 #who-we-are {
   background-color: #F8F8F8 ;
@@ -250,18 +241,14 @@ th {
   font-size: 50px;
 }
 
-
 #mission-block{
    height: 30em;
    background: url("https://static.pexels.com/photos/5190/man-person-clouds-apple.jpg") no-repeat center left fixed;
    background-size:100%;
    width: 100%;
-
-
 }
 
 #mission-text {
-  /*margin-top:5%;*/
   width:90%;
   padding-right:65%;
   color:#303030;
@@ -302,14 +289,10 @@ th {
   color:#A8A8A8 ;
 }
 
-
-
-
 .footer-table{
   background-color: #282828 ;
   border:none;
 }
-
 /*SERVICES*/
 
 #services-heading {
@@ -402,17 +385,13 @@ th {
 }
 
 #map-right-content td{
-  /*border:1px solid black;*/
   padding-left:3px;
   padding-bottom:3px;
 }
 
 * {
   font-family: lato;
-  /*border: 1px solid red ;*/
 }
-
-
 
 .glyphicon {
   text-align: center;
@@ -432,5 +411,3 @@ th {
   font-size:40px;
   color:white;
 }
-
-
