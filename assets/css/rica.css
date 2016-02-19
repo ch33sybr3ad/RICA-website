@@ -344,7 +344,7 @@ th {
 }
 
 #contact-heading {
-  background:url("https://static.pexels.com/photos/17663/pexels-photo.jpg")no-repeat bottom right fixed;
+  background:url("https://static.pexels.com/photos/17663/pexels-photo.jpg")repeat bottom right fixed;
   height:20%;
   width:100%;
   background-size:100%;
@@ -425,6 +425,16 @@ th {
   #services-heading h2{
     padding-top:10%;
   }
+  #contact-heading h2{
+    padding-top:10%;
+  }
+  .iframe-container{
+    display:none;
+  }
+  #map-right-content{
+    float:left;
+  }
+
 }
 /*hamburger menu styling*/
 
