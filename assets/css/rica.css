@@ -431,3 +431,9 @@ th {
   width: 100px;
 }
 }
+/*hamburger menu styling*/
+
+.icon-bar {
+   background-color:black !important;
+   color:black;
+}
