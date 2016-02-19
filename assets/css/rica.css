@@ -308,7 +308,7 @@ th {
 /*SERVICES*/
 
 #services-heading {
-  background:url("https://static.pexels.com/photos/2832/vehicle-vintage-old-truck.jpg")no-repeat right center fixed;
+  background:url("https://static.pexels.com/photos/2832/vehicle-vintage-old-truck.jpg") repeat right center fixed;
   height:20%;
   width:100%;
   background-size:100%;
@@ -331,6 +331,7 @@ th {
 
 .services-table {
   margin-bottom: 3%;
+
 }
 
 #services-content h3{
@@ -411,25 +412,18 @@ th {
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 1200px) {
-  #services-table {
-  width: 100%;
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .services-table {
+    width:70%;
+  }
 }
-}
-@media (max-width: 1000px) {
-  #services-table {
-  width: 800px;
-}
-}
-@media (max-width: 800px) {
-  #services-table {
-  width: 600px;
-}
-}
-@media (max-width: 400px) {
-  #services-table {
-  width: 100px;
-}
+@media screen and (max-width: 768px) {
+  .services-table {
+    width:300px;
+  }
+  #services-heading h2{
+    padding-top:10%;
+  }
 }
 /*hamburger menu styling*/
 
