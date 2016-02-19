@@ -113,7 +113,6 @@ p {
   font-size: 20px;
 }
 
-
 .rica-logo {
   float:left;
 }
@@ -122,12 +121,12 @@ p {
   background-color: #33CC66
 }
 
-
-
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 color: #33CC66;
-}
 
+  /*Sets the text hover color on navbar*/
+
+}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
     background-image: -webkit-linear-gradient(top,white 0,white 100%);
@@ -155,7 +154,6 @@ color: #33CC66;
   background-size: 100%;
 }
 
-
 #motto-text {
   position:relative;
   top:22%;
@@ -169,7 +167,6 @@ color: #33CC66;
   height:300px;
   vertical-align: middle;
   background-color:#33CC66;
-
 }
 
 #intro-paragraph-text {
@@ -304,7 +301,6 @@ th {
   background-color: #282828 ;
   border:none;
 }
-
 /*SERVICES*/
 
 #services-heading {
@@ -386,9 +382,13 @@ th {
 }
 
 #map-right-content td{
-  /*border:1px solid black;*/
   padding-left:3px;
   padding-bottom:3px;
+}
+
+
+* {
+  font-family: lato;
 }
 
 .glyphicon {
@@ -409,6 +409,7 @@ th {
   font-size:40px;
   color:white;
 }
+
 
 /*MEDIA QUERIES*/
 
@@ -431,3 +432,4 @@ th {
    background-color:black !important;
    color:black;
 }
+
