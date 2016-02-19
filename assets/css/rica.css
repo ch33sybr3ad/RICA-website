@@ -1,3 +1,9 @@
+
+
+* {
+  font-family: Lato;
+}
+
 /** Main SASS file with styles that basically all pages should have. */
 html, body {
   margin: 0;
@@ -120,8 +126,6 @@ p {
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 color: #33CC66;
-
-  /*Sets the text hover color on navbar*/
 }
 
 
@@ -203,14 +207,11 @@ color: #33CC66;
   margin: 30px;
 }
 
-
-
 #who-we-are {
   background-color: #F8F8F8 ;
   text-align: center;
   color:#303030 ;
   height:38em;
-
 }
 
 .glyphicon {
@@ -220,15 +221,13 @@ color: #33CC66;
 .about-table {
   text-align: left;
   background-color: white;
-  padding:10px ;
-
+  padding:10px;
   border-bottom:3px solid #66CC66;
 }
 
 #about-table {
   margin-top: 40px;
   background-color: white;
-
 }
 
 #about-heading {
@@ -250,23 +249,20 @@ th {
   font-size: 50px;
 }
 
-
 #mission-block{
    height: 30em;
    background: url("https://static.pexels.com/photos/5190/man-person-clouds-apple.jpg") no-repeat center left fixed;
    background-size:100%;
    width: 100%;
-
-
 }
 
 #mission-text {
-  /*margin-top:5%;*/
   width:90%;
   padding-right:65%;
   color:#303030;
   font-size:18px;
 }
+
 #mission-heading{
   color:#303030;
 }
@@ -277,11 +273,13 @@ th {
   width:100%;
   text-align: center;
 }
+
 #partners-block li {
   display: inline-block;
   padding-right:10%;
   padding-left:10%;
 }
+
 #partners-block h1{
   font-size: 30px;
   color:#66CC66;
@@ -301,9 +299,6 @@ th {
 #footer-block td {
   color:#A8A8A8 ;
 }
-
-
-
 
 .footer-table{
   background-color: #282828 ;
@@ -327,7 +322,6 @@ th {
 }
 
 #services-block {
-  /*position:relative;*/
   margin-top:5%;
 }
 
@@ -335,17 +329,6 @@ th {
   margin-top:5%;
 }
 
-.services-left-column{
-  width:25%;
-}
-
-}
-.services-table td{
-  border-left:3px solid white;
-  padding-left:3%;
-  background-color:#C6E2FF;
-
-}
 .services-table {
   margin-bottom: 3%;
 }
@@ -407,13 +390,6 @@ th {
   padding-bottom:3px;
 }
 
-* {
-  font-family: lato;
-  /*border: 1px solid red ;*/
-}
-
-
-
 .glyphicon {
   text-align: center;
 }
@@ -433,4 +409,25 @@ th {
   color:white;
 }
 
+/*MEDIA QUERIES*/
 
+@media (max-width: 1200px) {
+  #services-table {
+  width: 100%;
+}
+}
+@media (max-width: 1000px) {
+  #services-table {
+  width: 800px;
+}
+}
+@media (max-width: 800px) {
+  #services-table {
+  width: 600px;
+}
+}
+@media (max-width: 400px) {
+  #services-table {
+  width: 100px;
+}
+}
