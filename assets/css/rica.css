@@ -417,6 +417,10 @@ th {
   .services-table {
     width:70%;
   }
+  .photo-container{
+      background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") no-repeat top center fixed;
+      height:35em;
+  }
 }
 @media screen and (max-width: 768px) {
   .services-table {
@@ -434,8 +438,36 @@ th {
   #map-right-content{
     float:left;
   }
-
+  .photo-container{
+      background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") repeat top center fixed;
+      height:30em;
+  }
+  .about-table-container {
+    display:block;
+  }
+  #about-heading {
+    text-align:center;
+  }
+  #who-we-are {
+    height:85em;
+  }
+  #mission-block {
+    height:50em;
+    background: url("https://static.pexels.com/photos/5190/man-person-clouds-apple.jpg") no-repeat top center;
+    background-size:380%;
+  }
+  #mission-text {
+  width:90%;
+  padding:0;
+  color:#303030;
+  font-size:18px;
+  }
+  #partners-block{
+    height:20em;
+  }
 }
+
+
 /*hamburger menu styling*/
 
 .icon-bar {
