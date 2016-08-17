@@ -1,5 +1,3 @@
-
-
 * {
   font-family: Lato;
 }
@@ -75,7 +73,6 @@ p {
 #header #slogan {
   text-transform: uppercase; }
 
-
 #footer {
   border-top: 1px solid #AAA;
   background: #DDD; }
@@ -122,10 +119,8 @@ p {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: #33CC66;
-
+  color: #33CC66;
   /*Sets the text hover color on navbar*/
-
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
@@ -148,7 +143,7 @@ color: #33CC66;
 .photo-container {
   color:white;
   text-align: center;
-  background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") no-repeat top center fixed;
+  background: url("../imgs/green-world.jpeg") no-repeat top center fixed;
   margin-top:3.7em;
   height:45em;
   background-size: 100%;
@@ -327,7 +322,6 @@ th {
 
 .services-table {
   margin-bottom: 3%;
-
 }
 
 #services-content h3{
@@ -361,7 +355,6 @@ th {
   display:inline-block;
   float:right;
   margin-right: -5%;
-
 }
 #map-right-content a{
   color:black;
@@ -386,7 +379,6 @@ th {
   padding-bottom:3px;
 }
 
-
 * {
   font-family: lato;
 }
@@ -397,7 +389,7 @@ th {
 
 /*ABOUT*/
 #about-us-heading {
-  background:url("https://static.pexels.com/photos/11406/c12ee0f379643a278198b2086afd3b9c.jpg")no-repeat center right fixed;
+  background: url("../imgs/electronic.jpeg") no-repeat center right fixed;
   height:20%;
   width:100%;
   background-size:100%;
@@ -410,16 +402,11 @@ th {
   color:white;
 }
 
-
 /*MEDIA QUERIES*/
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .services-table {
     width:70%;
-  }
-  .photo-container{
-      background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") no-repeat top center fixed;
-      height:35em;
   }
 }
 @media screen and (max-width: 768px) {
@@ -439,7 +426,7 @@ th {
     float:left;
   }
   .photo-container{
-      background: url("https://images.unsplash.com/photo-1445551712021-28753c605094?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2e64f000e1c9d29cce4cb56a2d02290c") repeat top center fixed;
+      background: url("../imgs/green-world.jpeg") repeat top center fixed;
       height:30em;
   }
   .about-table-container {
@@ -467,11 +454,9 @@ th {
   }
 }
 
-
 /*hamburger menu styling*/
 
 .icon-bar {
    background-color:black !important;
    color:black;
 }
-
