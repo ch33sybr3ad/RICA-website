@@ -7,8 +7,13 @@
 	background-color: white;
 	border-color: $light-gray;
 
-	.navbar-nav >li>a{
-		color: $medium-gray;
+	.navbar-nav >li {
+		a {
+			color: $medium-gray;
+		}
+		a:hover {
+			color: $rica-green;
+		}
 	}
 
 	.navbar-brand {

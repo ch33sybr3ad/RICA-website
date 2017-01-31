@@ -1,3 +1,12 @@
-
+#about-section .panel-default {
+  border: none;
+  height: 20%;
+  font-size: 15px;
+  -webkit-box-shadow: 8px 9px 5px -8px #808080;
+  -moz-box-shadow: 8px 9px 5px -8px #808080;
+  box-shadow: 8px 9px 5px -8px #808080; }
+  #about-section .panel-default .panel-heading {
+    background-color: white;
+    border-color: #66CC66; }
 
 /*# sourceMappingURL=index.css.map */

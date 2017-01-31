@@ -1,3 +1,20 @@
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/functions";
+
+// === ABOUT ===
+
+#about-section {
+	.panel-default{
+		border: none;
+		height: 20%;
+		font-size: 15px;
+		
+		@include box-shadow($color: $shadow-gray);
+
+		.panel-heading {
+			background-color: white;
+			border-color: $rica-green;
+		}
+	}
+}

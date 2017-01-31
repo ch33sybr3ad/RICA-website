@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAKA,eAAgB;EACf,gBAAgB,EAAE,KAAK;EACvB,YAAY,ECLA,OAAO;EDOnB,oCAAiB;IAChB,KAAK,ECPO,OAAO;EDUpB,6BAAc;IACb,OAAO,EAAE,CAAC;IACV,KAAK,ECZO,OAAO;IDcnB,uCAAU;MACT,OAAO,EAAE,MAAM;MACf,SAAS,EAAE,IAAI;MACf,cAAc,EAAC,MAAM;IAGtB,wCAAW;MACV,WAAW,EAAE,IAAI;;AEnBpB,CAAE;ECFO,yDAAqD",
-"sources": ["../sass/navbar.scss","../sass/partials/_variables.scss","../sass/main.scss","../sass/partials/_mixins.scss"],
+"mappings": "AAGS,yDAAqD;ACI7D,6BAAc;EACb,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,GAAG;EACX,SAAS,EAAE,IAAI;EDHhB,kBAAkB,EAAE,wBAAuB;EAC3C,eAAe,EAAE,wBAAuB;EACxC,UAAU,EAAE,wBAAuB;ECKlC,4CAAe;IACd,gBAAgB,EAAE,KAAK;IACvB,YAAY,ECXF,OAAO;;ACApB,eAAgB;EACf,gBAAgB,EAAE,KAAK;EACvB,YAAY,EDLA,OAAO;ECQlB,kCAAE;IACD,KAAK,EDRM,OAAO;ECUnB,wCAAQ;IACP,KAAK,EDTK,OAAO;ECanB,6BAAc;IACb,OAAO,EAAE,CAAC;IACV,KAAK,EDjBO,OAAO;ICmBnB,uCAAU;MACT,OAAO,EAAE,MAAM;MACf,SAAS,EAAE,IAAI;MACf,cAAc,EAAC,MAAM;IAGtB,wCAAW;MACV,WAAW,EAAE,IAAI;;AClBpB,IAAK;EACJ,WAAW,EAAE,IAAI;EACjB,gBAAgB,EFXJ,OAAO",
+"sources": ["../sass/partials/_mixins.scss","../sass/index.scss","../sass/partials/_variables.scss","../sass/navbar.scss","../sass/main.scss"],
 "names": [],
 "file": "main.css"
 }

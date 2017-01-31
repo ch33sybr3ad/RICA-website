@@ -1,8 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+#about-section .panel-default {
+  border: none;
+  height: 20%;
+  font-size: 15px;
+  -webkit-box-shadow: 8px 9px 5px -8px #808080;
+  -moz-box-shadow: 8px 9px 5px -8px #808080;
+  box-shadow: 8px 9px 5px -8px #808080; }
+  #about-section .panel-default .panel-heading {
+    background-color: white;
+    border-color: #66CC66; }
+
 .navbar-inverse {
   background-color: white;
-  border-color: #e7e7e7; }
-  .navbar-inverse .navbar-nav > li > a {
+  border-color: #F8F8F8; }
+  .navbar-inverse .navbar-nav > li a {
     color: #5e5e5e; }
+  .navbar-inverse .navbar-nav > li a:hover {
+    color: #66CC66; }
   .navbar-inverse .navbar-brand {
     padding: 0;
     color: #5e5e5e; }
@@ -13,7 +27,8 @@
     .navbar-inverse .navbar-brand .logo-text {
       line-height: 50px; }
 
-* {
-  @import url(https://fonts.googleapis.com/css?family=Lato); }
+body {
+  font-family: Lato;
+  background-color: #F8F8F8; }
 
 /*# sourceMappingURL=main.css.map */

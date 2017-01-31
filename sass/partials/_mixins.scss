@@ -3,3 +3,9 @@
 	$font: unquote($font);
 	@import url(https://fonts.googleapis.com/css?family=#{$font});
 }
+
+@mixin box-shadow($color){
+	-webkit-box-shadow: 8px 9px 5px -8px $color;
+	-moz-box-shadow: 8px 9px 5px -8px $color;
+	box-shadow: 8px 9px 5px -8px $color;
+}

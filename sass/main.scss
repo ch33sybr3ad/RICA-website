@@ -3,6 +3,13 @@
 @import "about";
 @import "contact";
 
-* {
-	@include google-font("Lato");
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/functions";
+
+@include google-font("Lato");
+
+body {
+	font-family: Lato;
+	background-color: $light-gray;
 }
