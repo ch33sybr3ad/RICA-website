@@ -1,0 +1,8 @@
+@import "index";
+@import "navbar";
+@import "about";
+@import "contact";
+
+* {
+	@include google-font("Lato");
+}

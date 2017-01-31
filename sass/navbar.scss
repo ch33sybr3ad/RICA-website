@@ -1,0 +1,28 @@
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/functions";
+
+
+.navbar-inverse {
+	background-color: white;
+	border-color: $light-gray;
+
+	.navbar-nav >li>a{
+		color: $medium-gray;
+	}
+
+	.navbar-brand {
+		padding: 0;
+		color: $medium-gray;
+
+		.logo-img {
+			display: inline;
+			max-width: 50px;
+			vertical-align:middle;
+		}
+
+		.logo-text {
+			line-height: 50px;
+		}
+	}
+}
