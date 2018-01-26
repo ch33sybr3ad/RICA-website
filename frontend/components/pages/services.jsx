@@ -28,12 +28,12 @@ const Services = () => (
                 <p>RICA Commercial offers free electronic and metal pick-ups for local businesses near Hayward, Ca. This includes Computers, Laptops, Desktops, Monitors, TV's, Servers, Phones, Printers, Toners, Microwaves, Fax Machines, DVD/VCR Players and more! Please send us an email scheduling a pick-up or ask for more information!</p>
                 <form action="http://formspree.io/jzhao.690@gmail.com" method="post">
                   <div className="form-group">
+                    <label htmlFor="formEmailInput">Email:</label>
                     <input type="email" className="form-control" id="formEmailInput" name="_replyto" placeholder="example@gmail.com"/>
-                    <label htmlFor="formEmailInput">Email</label>
                   </div>
                   <div className="form-group">
+                    <label htmlFor="formTextarea">Description:</label>
                     <textarea className="form-control" id="formTextarea" rows="3" name="body" placeholder="Please describe the location and weight of the pick up"></textarea>
-                    <label htmlFor="formTextarea">Description</label>
                   </div>
                   <button type="submit" className="btn btn-primary">Submit</button>
                 </form>

@@ -137,7 +137,7 @@ p {
 }
 
 .navbar-default {
-  height: 3.5em;
+  height: 3em;
 }
 
 .photo-container {
@@ -277,6 +277,7 @@ th {
 }
 
 #footer-block {
+  height: 15em;
   background-color: #282828 ;
   width: 100%;
   border-top:3px solid #66CC66;
