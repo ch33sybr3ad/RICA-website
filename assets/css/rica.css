@@ -151,7 +151,7 @@ p {
 
 #motto-text {
   position:relative;
-  top:22%;
+  top:9%;
   font-size:50px;
   font-family: Lato;
   vertical-align: middle;
@@ -166,7 +166,7 @@ p {
 
 #intro-paragraph-text {
   position:relative;
-  top:22%;
+  top:9%;
   color:#303030 ;
   font-family: Lato;
   font-size:18px;
@@ -200,7 +200,6 @@ p {
 }
 
 #who-we-are {
-  background-color: #F8F8F8 ;
   text-align: center;
   color:#303030 ;
   height:38em;
@@ -278,7 +277,6 @@ th {
 }
 
 #footer-block {
-  height: 15em;
   background-color: #282828 ;
   width: 100%;
   border-top:3px solid #66CC66;
