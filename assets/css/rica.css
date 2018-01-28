@@ -39,7 +39,7 @@ p {
   margin: 1.5em 0; }
 
 .wrapper {
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
   padding: 30px; }
 
@@ -403,54 +403,11 @@ th {
 
 /*MEDIA QUERIES*/
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .services-table {
-    width:70%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .services-table {
-    width:300px;
-  }
-  #services-heading h2{
-    padding-top:10%;
-  }
-  #contact-heading h2{
-    padding-top:10%;
-  }
-  .iframe-container{
-    display:none;
-  }
-  #map-right-content{
-    float:left;
-  }
-  .photo-container{
-      background: url("../imgs/green-world.jpeg") repeat top center fixed;
-      height:30em;
-  }
-  .about-table-container {
-    display:block;
-  }
-  #about-heading {
-    text-align:center;
-  }
-  #who-we-are {
-    height:85em;
-  }
-  #mission-block {
-    height:50em;
-    background: url("https://static.pexels.com/photos/5190/man-person-clouds-apple.jpg") no-repeat top center;
-    background-size:380%;
-  }
-  #mission-text {
-  width:90%;
-  padding:0;
-  color:#303030;
-  font-size:18px;
-  }
-  #partners-block{
-    height:20em;
-  }
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
 }
 
 /*hamburger menu styling*/

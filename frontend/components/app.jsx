@@ -3,14 +3,14 @@ import {
   Route,
   Switch,
   Link,
-  NavLink
+  Redirect
 } from 'react-router-dom';
 
 import Homepage from './pages/index'
 import Services from './pages/services'
 import Contact from './pages/contact'
 import About from './pages/about_us'
-
+import Nav from './pages/nav_link'
 const App = () => (
   <div>
     <div className="header">
@@ -18,7 +18,7 @@ const App = () => (
         <div className="container-fluid">
           <div className="navbar-header">
             <img className="rica-logo" src="./assets/imgs/RicaLogo.png" width="60px"/>
-            <NavLink className="navbar-brand" to="/"> RICA Commercial </NavLink>
+            <Nav className="navbar-brand" to="/index"> RICA Commercial </Nav>
             <button className="btn btn-default navbar-toggle"
                     data-toggle="collapse"
                     data-target=".navbar-collapse">
@@ -30,10 +30,10 @@ const App = () => (
 
           <div className="navbar-collapse collapse">
             <ul className="nav navbar-nav navbar-right">
-                <li className="nav active"> <NavLink to="/">Home</NavLink> </li>
-                <li className="nav"> <NavLink to="/services">Services</NavLink> </li>
-                <li className="nav"> <NavLink to="/contact">Contact Us</NavLink> </li>
-                <li className="nav"> <NavLink to="/about_us">About Us</NavLink> </li>
+                <li className="nav"> <Nav to="/index">Home</Nav> </li>
+                <li className="nav"> <Nav to="/services">Services</Nav> </li>
+                <li className="nav"> <Nav to="/contact">Contact Us</Nav> </li>
+                <li className="nav"> <Nav to="/about_us">About Us</Nav> </li>
             </ul>
           </div>
         </div>
@@ -41,10 +41,13 @@ const App = () => (
     </div>
 
     <Switch>
-      <Route exact path="/" component={Homepage} />
+      <Route path="/index" component={Homepage} />
       <Route path="/services" component={Services} />
       <Route path="/about_us" component={About} />
       <Route path="/contact" component={Contact} />
+      <Route exact path="/" render={() => (
+          <Redirect to="/index"/>)
+          }/>
     </Switch>
 
     <div className="container" id="footer-block">
